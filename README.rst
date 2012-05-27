@@ -6,6 +6,8 @@ Django AdminPlus
 Django admin component that lets you add admin views that are not tied to
 models.
 
+This is the fork of AdminPlus by pstch, to fit his needs in TreeRoad
+
 There are packages out there, like `Nexus <https://github.com/disqus/nexus>`_
 and `django-admin-tools <http://pypi.python.org/pypi/django-admin-tools>`_ that
 replace the entire admin. Nexus supports adding completely new "modules" (the
