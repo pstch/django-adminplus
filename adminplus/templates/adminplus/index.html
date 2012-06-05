@@ -8,7 +8,7 @@
     <table style="width: 100%">
       <caption>Custom Views</caption>
       <tbody>
-        {% for path, name in custom_list %}
+        {% for path, name, label in custom_list %}
           <tr><td><a href="{{ path }}">{{ name }}</a>{% if label %}<p>{{label}}</p>{% endif %}</td></tr>
         {% endfor %}
       </tbody>
